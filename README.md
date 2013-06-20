@@ -1,6 +1,6 @@
-# Notice window plugin for jqUi
+# Notice window plugin for App Framework
 
-###Author: Ian Maffett (appMobi)
+###Author: Ian Maffett
 
 This plugin gives "facebook" style notice windows (clicking on messages, notices, etc).
 
