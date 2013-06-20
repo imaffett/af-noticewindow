@@ -1,0 +1,32 @@
+<html>
+<script src="https://raw.github.com/01org/appframework/2.0/appframework.js"></script>
+<link rel="stylesheet" type="text/css" href="af.noticeWindow.css" />
+
+
+<script src="af.noticeWindow.js"></script>
+
+<script type="text/javascript">
+function showNotice(){
+ $(document.body).noticeWindow({
+       title:'Notifications', //string
+       content:'This is a sample', //string of thml
+       arrowLeft:'middle' //left,middle,right or pixels from the left
+   });
+}
+
+function downNotice(){
+ $(document.body).noticeWindow({
+       title:'Notifications', //string
+       content:'This is a sample', //string of thml
+       arrowLeft:'middle', //left,middle,right or pixels from the left
+       arrowDirection:"down"
+   });
+}
+</script>
+
+<body style="margin:0px;overflow:hidden">
+
+<a href="javascript:;" onclick="showNotice()">Middle Arrow</a> | <a href="javascript:;" onclick="downNotice()">Bottom Arrow</a>
+
+</body>
+</html>

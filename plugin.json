@@ -1,0 +1,13 @@
+{
+    "name": "af-noticewindow",
+    "title": "Notice Window",
+    "version": "0.1",
+    "author": "Ian Maffett",
+    "license": "MIT X11",
+    "description": "Notice window style plugin",
+    "categories": [
+        "menu"
+    ],
+    "homepage": "https://github.com/imaffett/af-noticewindow",
+    "maintainers": ["Ian Maffett"]
+}
